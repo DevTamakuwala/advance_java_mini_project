@@ -1,0 +1,492 @@
+17-Apr-2025 12:34:05.062 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/advance_java_mini_project] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+request cannot be resolved or is not a field
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%=pageContext.request.contextPath%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+request cannot be resolved or is not a field
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%=pageContext.request.contextPath%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+17-Apr-2025 12:34:26.685 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/advance_java_mini_project] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+pageContext.request.contextPath cannot be resolved to a type
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%pageContext.request.contextPath%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Duplicate local variable out
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%pageContext.request.contextPath%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error on token ".", ; expected
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%pageContext.request.contextPath%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+The method write(String) is undefined for the type index_jsp
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%pageContext.request.contextPath%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+pageContext.request.contextPath cannot be resolved to a type
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%pageContext.request.contextPath%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Duplicate local variable out
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%pageContext.request.contextPath%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error on token ".", ; expected
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%pageContext.request.contextPath%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+The method write(String) is undefined for the type index_jsp
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%pageContext.request.contextPath%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+17-Apr-2025 12:34:56.899 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/advance_java_mini_project] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+$ cannot be resolved
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete BlockStatements
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+$ cannot be resolved
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete BlockStatements
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+17-Apr-2025 12:35:02.125 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/advance_java_mini_project] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete MethodInvocation
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%=${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete Statement
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%=${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+$ cannot be resolved to a variable
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%=${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+request cannot be resolved or is not a field
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%=${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error on token "}", ( expected
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%=${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [398] in the generated java file: [D:\Study\MCA_Science\Sem-2\Advance_Java\advance_java_mini_project\work\Catalina\localhost\advance_java_mini_project\org\apache\jsp\index_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete MethodInvocation
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%=${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete Statement
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%=${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+$ cannot be resolved to a variable
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%=${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+request cannot be resolved or is not a field
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%=${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [219] in the jsp file: [/index.jsp]
+Syntax error on token "}", ( expected
+216: </header>
+217: 
+218: <!-- BANNER IMAGE -->
+219: <%=${pageContext.request.contextPath}%>
+220: <img src="${pageContext.request.contextPath}/images/lib1.jpg" alt="Library Banner" class="banner-image">
+221: 
+222: <!-- MAIN SECTION -->
+
+
+An error occurred at line: [398] in the generated java file: [D:\Study\MCA_Science\Sem-2\Advance_Java\advance_java_mini_project\work\Catalina\localhost\advance_java_mini_project\org\apache\jsp\index_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
