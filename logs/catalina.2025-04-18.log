@@ -1678,3 +1678,740 @@
  java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
 18-Apr-2025 20:07:37.298 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 18-Apr-2025 20:07:37.327 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 20:07:38.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 20:07:38.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 20:07:38.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 20:07:38.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 20:07:38.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 20:07:38.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 20:07:38.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 20:07:38.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 20:07:38.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 20:07:38.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 20:07:38.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 20:07:38.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 20:07:38.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 20:07:38.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 20:07:38.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 20:07:38.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 20:07:38.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 20:07:38.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 20:07:38.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 20:07:38.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 20:07:38.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 20:07:38.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=51426:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 20:07:38.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 20:07:38.726 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 20:07:39.033 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 20:07:39.053 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [559] milliseconds
+18-Apr-2025 20:07:39.101 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 20:07:39.101 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 20:07:39.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 20:07:40.094 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 20:07:40.234 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,121] ms
+18-Apr-2025 20:07:40.238 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 20:07:40.329 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1275] milliseconds
+18-Apr-2025 21:09:56.790 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:09:56.909 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 21:09:56.919 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [advance_java_mini_project] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Apr-2025 21:09:56.921 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [advance_java_mini_project] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ java.base@17.0.14/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+18-Apr-2025 21:09:56.926 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:09:56.945 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:18:05.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 21:18:05.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 21:18:05.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 21:18:05.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 21:18:05.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 21:18:05.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 21:18:05.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 21:18:05.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 21:18:05.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 21:18:05.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:18:05.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:18:05.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 21:18:05.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 21:18:05.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 21:18:05.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 21:18:05.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 21:18:05.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:18:05.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:18:05.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 21:18:05.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 21:18:05.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 21:18:05.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=58249:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 21:18:05.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 21:18:05.301 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 21:18:05.601 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:18:05.623 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [539] milliseconds
+18-Apr-2025 21:18:05.682 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 21:18:05.682 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 21:18:05.694 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 21:18:06.611 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 21:18:06.731 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,037] ms
+18-Apr-2025 21:18:06.735 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:18:06.828 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1203] milliseconds
+18-Apr-2025 21:26:42.186 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:26:42.304 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 21:26:42.315 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [advance_java_mini_project] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Apr-2025 21:26:42.315 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [advance_java_mini_project] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ java.base@17.0.14/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+18-Apr-2025 21:26:42.320 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:26:42.332 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:30:33.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 21:30:33.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 21:30:33.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 21:30:33.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 21:30:33.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 21:30:33.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 21:30:33.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 21:30:33.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 21:30:33.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 21:30:33.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:30:33.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:30:33.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 21:30:33.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 21:30:33.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 21:30:33.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 21:30:33.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 21:30:33.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:30:33.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:30:33.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 21:30:33.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 21:30:33.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 21:30:33.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=58315:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 21:30:33.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 21:30:33.792 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 21:30:34.102 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:30:34.125 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [614] milliseconds
+18-Apr-2025 21:30:34.182 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 21:30:34.183 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 21:30:34.194 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 21:30:35.170 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 21:30:35.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,115] ms
+18-Apr-2025 21:30:35.315 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:30:35.408 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1282] milliseconds
+18-Apr-2025 21:35:02.391 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:35:02.513 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 21:35:02.519 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [advance_java_mini_project] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Apr-2025 21:35:02.520 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [advance_java_mini_project] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ java.base@17.0.14/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+18-Apr-2025 21:35:02.524 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:35:02.529 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:37:42.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 21:37:42.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 21:37:42.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 21:37:42.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 21:37:42.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 21:37:42.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 21:37:42.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 21:37:42.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 21:37:42.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 21:37:42.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:37:42.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:37:42.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 21:37:42.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 21:37:42.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 21:37:42.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 21:37:42.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 21:37:42.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:37:42.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:37:42.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 21:37:42.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 21:37:42.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 21:37:42.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=58367:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 21:37:42.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 21:37:42.628 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 21:37:42.936 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:37:42.961 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [564] milliseconds
+18-Apr-2025 21:37:43.014 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 21:37:43.015 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 21:37:43.025 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 21:37:44.007 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 21:37:44.135 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,110] ms
+18-Apr-2025 21:37:44.139 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:37:44.229 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1268] milliseconds
+18-Apr-2025 21:45:32.484 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:45:32.607 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 21:45:32.615 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [advance_java_mini_project] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Apr-2025 21:45:32.616 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [advance_java_mini_project] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ java.base@17.0.14/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+18-Apr-2025 21:45:32.621 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:45:32.634 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:45:34.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 21:45:34.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 21:45:34.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 21:45:34.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 21:45:34.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 21:45:34.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 21:45:34.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 21:45:34.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 21:45:34.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 21:45:34.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:45:34.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:45:34.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 21:45:34.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 21:45:34.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 21:45:34.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 21:45:34.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 21:45:34.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:45:34.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:45:34.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 21:45:34.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 21:45:34.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 21:45:34.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=58416:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 21:45:34.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 21:45:34.985 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 21:45:35.275 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:45:35.299 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [540] milliseconds
+18-Apr-2025 21:45:35.350 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 21:45:35.350 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 21:45:35.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 21:45:36.283 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 21:45:36.418 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,058] ms
+18-Apr-2025 21:45:36.422 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:45:36.513 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1213] milliseconds
+18-Apr-2025 21:47:40.467 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:47:40.595 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 21:47:40.604 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [advance_java_mini_project] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Apr-2025 21:47:40.605 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [advance_java_mini_project] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ java.base@17.0.14/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+18-Apr-2025 21:47:40.610 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:47:40.629 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:47:42.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 21:47:42.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 21:47:42.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 21:47:42.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 21:47:42.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 21:47:42.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 21:47:42.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 21:47:42.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 21:47:42.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 21:47:42.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:47:42.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:47:42.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 21:47:42.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 21:47:42.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 21:47:42.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 21:47:42.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 21:47:42.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:47:42.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:47:42.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 21:47:42.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 21:47:42.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 21:47:42.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=58541:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 21:47:42.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 21:47:42.940 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 21:47:43.237 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:47:43.258 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [541] milliseconds
+18-Apr-2025 21:47:43.315 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 21:47:43.315 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 21:47:43.329 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 21:47:44.280 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 21:47:44.411 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,080] ms
+18-Apr-2025 21:47:44.415 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:47:44.507 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1249] milliseconds
+18-Apr-2025 21:48:44.056 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:48:44.175 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 21:48:44.183 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [advance_java_mini_project] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Apr-2025 21:48:44.184 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [advance_java_mini_project] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ java.base@17.0.14/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+18-Apr-2025 21:48:44.190 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:48:44.200 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:48:46.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 21:48:46.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 21:48:46.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 21:48:46.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 21:48:46.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 21:48:46.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 21:48:46.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 21:48:46.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 21:48:46.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 21:48:46.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:48:46.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:48:46.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 21:48:46.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 21:48:46.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 21:48:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 21:48:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 21:48:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:48:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:48:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 21:48:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 21:48:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 21:48:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=58554:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 21:48:46.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 21:48:46.593 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 21:48:46.920 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:48:46.945 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [612] milliseconds
+18-Apr-2025 21:48:47.009 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 21:48:47.009 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 21:48:47.022 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 21:48:48.074 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 21:48:48.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,190] ms
+18-Apr-2025 21:48:48.217 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:48:48.311 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1365] milliseconds
+18-Apr-2025 21:49:04.083 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:49:04.198 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 21:49:04.209 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:49:04.226 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:49:06.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 21:49:06.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 21:49:06.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 21:49:06.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 21:49:06.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 21:49:06.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 21:49:06.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 21:49:06.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 21:49:06.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 21:49:06.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:49:06.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:49:06.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 21:49:06.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 21:49:06.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 21:49:06.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 21:49:06.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 21:49:06.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:49:06.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:49:06.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 21:49:06.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 21:49:06.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 21:49:06.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=58565:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 21:49:06.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 21:49:06.405 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 21:49:06.703 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:49:06.725 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [548] milliseconds
+18-Apr-2025 21:49:06.773 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 21:49:06.773 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 21:49:06.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 21:49:07.695 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 21:49:07.824 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,041] ms
+18-Apr-2025 21:49:07.828 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:49:07.918 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1192] milliseconds
+18-Apr-2025 21:53:10.924 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:53:11.042 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 21:53:11.050 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [advance_java_mini_project] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Apr-2025 21:53:11.050 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [advance_java_mini_project] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ java.base@17.0.14/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+18-Apr-2025 21:53:11.056 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:53:11.070 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:53:12.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 21:53:12.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 21:53:12.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 21:53:12.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 21:53:12.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 21:53:12.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 21:53:12.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 21:53:12.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 21:53:12.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 21:53:12.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:53:12.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:53:12.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 21:53:12.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 21:53:12.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 21:53:12.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 21:53:12.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 21:53:12.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:53:12.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:53:12.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 21:53:12.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 21:53:12.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 21:53:12.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=58615:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 21:53:12.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 21:53:12.583 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 21:53:12.907 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:53:12.929 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [606] milliseconds
+18-Apr-2025 21:53:12.987 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 21:53:12.987 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 21:53:12.999 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 21:53:13.963 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 21:53:14.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,092] ms
+18-Apr-2025 21:53:14.095 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:53:14.186 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1256] milliseconds
+18-Apr-2025 21:56:29.658 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:56:29.777 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 21:56:29.783 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [advance_java_mini_project] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Apr-2025 21:56:29.784 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [advance_java_mini_project] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ java.base@17.0.14/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+18-Apr-2025 21:56:29.789 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:56:29.808 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:56:32.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 21:56:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 21:56:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 21:56:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 21:56:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 21:56:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 21:56:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 21:56:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 21:56:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 21:56:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:56:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:56:32.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 21:56:32.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 21:56:32.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 21:56:32.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 21:56:32.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 21:56:32.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 21:56:32.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 21:56:32.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 21:56:32.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 21:56:32.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 21:56:32.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=58953:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 21:56:32.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 21:56:32.094 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 21:56:32.414 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:56:32.440 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [587] milliseconds
+18-Apr-2025 21:56:32.494 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 21:56:32.495 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 21:56:32.507 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 21:56:33.442 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 21:56:33.571 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,064] ms
+18-Apr-2025 21:56:33.576 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:56:33.667 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1226] milliseconds
+18-Apr-2025 21:59:57.789 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:59:57.909 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 21:59:57.917 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [advance_java_mini_project] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Apr-2025 21:59:57.917 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [advance_java_mini_project] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ java.base@17.0.14/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+18-Apr-2025 21:59:57.921 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 21:59:57.937 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:00:00.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 22:00:00.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 22:00:00.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 22:00:00.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 22:00:00.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 22:00:00.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 22:00:00.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 22:00:00.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 22:00:00.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 22:00:00.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 22:00:00.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 22:00:00.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 22:00:00.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 22:00:00.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 22:00:00.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 22:00:00.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 22:00:00.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 22:00:00.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 22:00:00.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 22:00:00.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 22:00:00.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 22:00:00.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=58980:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 22:00:00.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 22:00:00.192 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 22:00:00.504 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:00:00.525 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [583] milliseconds
+18-Apr-2025 22:00:00.582 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 22:00:00.582 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 22:00:00.595 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 22:00:01.599 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 22:00:01.733 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,138] ms
+18-Apr-2025 22:00:01.737 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:00:01.829 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1302] milliseconds
+18-Apr-2025 22:01:35.944 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:01:36.064 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 22:01:36.071 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [advance_java_mini_project] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Apr-2025 22:01:36.072 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [advance_java_mini_project] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ java.base@17.0.14/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+18-Apr-2025 22:01:36.076 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:01:36.093 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:01:38.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 22:01:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 22:01:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 22:01:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 22:01:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 22:01:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 22:01:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 22:01:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 22:01:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 22:01:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 22:01:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 22:01:38.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 22:01:38.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 22:01:38.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 22:01:38.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 22:01:38.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 22:01:38.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 22:01:38.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 22:01:38.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 22:01:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 22:01:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 22:01:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=59002:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 22:01:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 22:01:38.374 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 22:01:38.687 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:01:38.712 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [576] milliseconds
+18-Apr-2025 22:01:38.769 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 22:01:38.769 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 22:01:38.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 22:01:39.705 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 22:01:39.841 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,060] ms
+18-Apr-2025 22:01:39.844 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:01:39.937 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1225] milliseconds
+18-Apr-2025 22:12:29.166 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:12:29.321 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 22:12:29.335 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [advance_java_mini_project] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Apr-2025 22:12:29.336 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [advance_java_mini_project] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ java.base@17.0.14/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+18-Apr-2025 22:12:29.341 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:12:29.360 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:12:32.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 22:12:32.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 22:12:32.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 22:12:32.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 22:12:32.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 22:12:32.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 22:12:32.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 22:12:32.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 22:12:32.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 22:12:32.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 22:12:32.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 22:12:32.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 22:12:32.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 22:12:32.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 22:12:32.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 22:12:32.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 22:12:32.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 22:12:32.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 22:12:32.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 22:12:32.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 22:12:32.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 22:12:32.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=59128:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 22:12:32.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 22:12:32.234 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 22:12:32.701 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:12:32.732 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [867] milliseconds
+18-Apr-2025 22:12:32.831 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 22:12:32.831 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 22:12:32.852 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 22:12:34.211 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 22:12:34.368 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,516] ms
+18-Apr-2025 22:12:34.373 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:12:34.491 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1758] milliseconds
+18-Apr-2025 22:20:54.914 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:20:55.033 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 22:20:55.040 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [advance_java_mini_project] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Apr-2025 22:20:55.040 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [advance_java_mini_project] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ java.base@17.0.14/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+18-Apr-2025 22:20:55.045 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:20:55.062 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:20:57.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 22:20:57.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 22:20:57.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 22:20:57.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 22:20:57.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 22:20:57.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 22:20:57.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 22:20:57.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 22:20:57.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 22:20:57.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 22:20:57.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 22:20:57.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 22:20:57.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 22:20:57.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 22:20:57.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 22:20:57.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 22:20:57.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 22:20:57.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 22:20:57.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 22:20:57.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 22:20:57.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 22:20:57.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=59187:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 22:20:57.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 22:20:57.360 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 22:20:57.670 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:20:57.694 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [570] milliseconds
+18-Apr-2025 22:20:57.756 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 22:20:57.756 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 22:20:57.771 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 22:20:58.673 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 22:20:58.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,031] ms
+18-Apr-2025 22:20:58.806 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:20:58.897 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1203] milliseconds
+18-Apr-2025 22:22:11.164 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:22:11.282 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 22:22:11.292 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:22:11.308 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:22:12.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 22:22:12.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 22:22:12.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 22:22:12.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 22:22:12.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 22:22:12.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 22:22:12.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 22:22:12.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 22:22:12.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 22:22:12.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 22:22:12.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 22:22:12.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 22:22:12.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 22:22:12.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 22:22:12.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 22:22:12.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 22:22:12.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 22:22:12.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 22:22:12.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 22:22:12.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 22:22:12.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 22:22:12.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=59196:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 22:22:12.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 22:22:12.844 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 22:22:13.167 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:22:13.186 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [601] milliseconds
+18-Apr-2025 22:22:13.232 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 22:22:13.232 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 22:22:13.242 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 22:22:14.154 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 22:22:14.280 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,037] ms
+18-Apr-2025 22:22:14.284 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:22:14.376 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1190] milliseconds
+18-Apr-2025 22:24:04.233 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:24:04.352 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 22:24:04.359 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [advance_java_mini_project] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Apr-2025 22:24:04.360 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [advance_java_mini_project] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ java.base@17.0.14/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+18-Apr-2025 22:24:04.365 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:24:04.379 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:24:05.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 22:24:05.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 22:24:05.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 22:24:05.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 22:24:05.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 22:24:05.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 22:24:05.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 22:24:05.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 22:24:05.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 22:24:05.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 22:24:05.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 22:24:05.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 22:24:05.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 22:24:05.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 22:24:05.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 22:24:05.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 22:24:05.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 22:24:05.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 22:24:05.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 22:24:05.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 22:24:05.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 22:24:05.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=59212:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 22:24:05.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 22:24:05.820 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 22:24:06.119 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:24:06.141 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [572] milliseconds
+18-Apr-2025 22:24:06.198 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 22:24:06.198 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 22:24:06.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 22:24:07.134 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 22:24:07.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,054] ms
+18-Apr-2025 22:24:07.270 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:24:07.357 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1215] milliseconds
+18-Apr-2025 22:24:30.973 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:24:31.088 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Apr-2025 22:24:31.094 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [advance_java_mini_project] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Apr-2025 22:24:31.095 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [advance_java_mini_project] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ java.base@17.0.14/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+18-Apr-2025 22:24:31.099 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:24:31.112 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:24:32.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+18-Apr-2025 22:24:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+18-Apr-2025 22:24:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+18-Apr-2025 22:24:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2025 22:24:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2025 22:24:32.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2025 22:24:32.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\sajja\.jdks\jbr-17.0.14
+18-Apr-2025 22:24:32.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+1-b1367.22
+18-Apr-2025 22:24:32.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+18-Apr-2025 22:24:32.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 22:24:32.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 22:24:32.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2025 22:24:32.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2025 22:24:32.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2025 22:24:32.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2025 22:24:32.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2025 22:24:32.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\AdvanceJavaMiniProject\advance_java_mini_project\apache-tomcat-9.0.100\apache-tomcat-9.0.100
+18-Apr-2025 22:24:32.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\AdvanceJavaMiniProject\advance_java_mini_project
+18-Apr-2025 22:24:32.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\AdvanceJavaMiniProject\advance_java_mini_project\temp
+18-Apr-2025 22:24:32.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\logging.properties
+18-Apr-2025 22:24:32.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2025 22:24:32.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=59227:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Apr-2025 22:24:32.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2025 22:24:32.562 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\sajja\.jdks\jbr-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sajja\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python39\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sajja\AppData\Local\Programs\Python\Python310\;C:\Users\sajja\AppData\Local\Microsoft\WindowsApps;C:\Users\sajja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\sajja\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\sajja\AppData\Roaming\npm;C:\Users\sajja\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\MinGW\bin;;.]
+18-Apr-2025 22:24:32.856 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:24:32.873 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [581] milliseconds
+18-Apr-2025 22:24:32.923 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2025 22:24:32.924 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+18-Apr-2025 22:24:32.934 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml]
+18-Apr-2025 22:24:33.825 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2025 22:24:33.952 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AdvanceJavaMiniProject\advance_java_mini_project\conf\Catalina\localhost\advance_java_mini_project.xml] has finished in [1,018] ms
+18-Apr-2025 22:24:33.956 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2025 22:24:34.044 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1169] milliseconds
