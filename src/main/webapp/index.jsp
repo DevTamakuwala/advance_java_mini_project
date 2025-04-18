@@ -307,8 +307,8 @@
         <a href="./jsp/search.jsp">Search Books</a>
     </nav>
     <div class="auth-buttons">
-        <a href="./jsp/login.jsp">Login</a>
-        <a href="./jsp/register.jsp">Register</a>
+        <a href="./Login.jsp">Login</a>
+        <a href="./register.jsp">Register</a>
     </div>
 </header>
 
