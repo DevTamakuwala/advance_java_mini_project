@@ -432,3 +432,6 @@
 0:0:0:0:0:0:0:1 - - [18/Apr/2025:22:25:10 +0530] "GET /advance_java_mini_project/student_dashboard.jsp HTTP/1.1" 200 280
 0:0:0:0:0:0:0:1 - - [18/Apr/2025:22:25:18 +0530] "GET /advance_java_mini_project/admin_dashboard.jsp HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [18/Apr/2025:22:25:18 +0530] "GET /advance_java_mini_project/student_dashboard.jsp HTTP/1.1" 200 280
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:22:26:45 +0530] "GET /advance_java_mini_project/manage_books.jsp HTTP/1.1" 200 4
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:22:26:55 +0530] "POST /advance_java_mini_project/logout.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:22:26:55 +0530] "GET /advance_java_mini_project/Login.jsp HTTP/1.1" 200 3121
