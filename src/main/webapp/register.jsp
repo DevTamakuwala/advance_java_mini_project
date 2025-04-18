@@ -84,7 +84,8 @@
 
     <div class="glass-form">
         <h2 class="form-title">REGISTRATION</h2>
-        <form class="register-form" id="register-form" method="POST" action="register.jsp">
+<form class="register-form" id="register-form" method="POST" action="register">
+
             <div class="form-group">
                 <input type="text" name="name" id="name" placeholder="Name" required />
             </div>
