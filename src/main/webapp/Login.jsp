@@ -84,7 +84,7 @@
 
     <div class="glass-form">
         <h2 class="form-title">LOGIN</h2>
-<form class="login-form" id="login-form" method="POST" action="LoginServlet">
+        <form class="login-form" id="login-form" method="POST" action="login.jsp">
             <div class="form-group">
                 <input type="email" name="email" id="email" placeholder="Email" required />
             </div>
@@ -98,14 +98,6 @@
             </div>
 
             <a href="forgot-password.jsp" class="signup-image-link">Forgot Password?</a>
-
-            <!-- Display error message if login fails -->
-            <c:if test="${not empty error}">
-                <div style="color: red; text-align: center; margin-top: 20px;">
-                    <p>${error}</p>
-                </div>
-            </c:if>
-
         </form>
     </div>
 
