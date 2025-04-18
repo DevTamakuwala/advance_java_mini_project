@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:13:47:28 +0530] "GET /advance_java_mini_project HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:13:47:30 +0530] "GET /advance_java_mini_project/ HTTP/1.1" 200 12135
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:13:47:30 +0530] "GET /advance_java_mini_project/images/atomichabits.jpg HTTP/1.1" 200 6440
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:13:47:30 +0530] "GET /advance_java_mini_project/images/review2.jpg HTTP/1.1" 200 23901
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:13:47:30 +0530] "GET /advance_java_mini_project/images/review1.jpg HTTP/1.1" 200 33785
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:13:47:30 +0530] "GET /advance_java_mini_project/images/ikigai.png HTTP/1.1" 200 119987
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:13:47:30 +0530] "GET /advance_java_mini_project/images/richdad.png HTTP/1.1" 200 201011
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:13:47:30 +0530] "GET /advance_java_mini_project/images/alchemist.jpg HTTP/1.1" 200 133498
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:13:47:30 +0530] "GET /advance_java_mini_project/images/review3.jpg HTTP/1.1" 200 183431
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:13:47:30 +0530] "GET /advance_java_mini_project/images/lib1.jpg HTTP/1.1" 200 738473
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:13:47:30 +0530] "GET /favicon.ico HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:13:48:07 +0530] "GET /advance_java_mini_project HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:13:48:08 +0530] "GET /advance_java_mini_project/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:13:48:45 +0530] "GET /advance_java_mini_project HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2025:13:48:46 +0530] "GET /advance_java_mini_project/ HTTP/1.1" 200 57
