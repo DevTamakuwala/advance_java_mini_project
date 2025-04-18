@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <meta charset="UTF-8">
     <title>Library Management System</title>
     <style>
@@ -11,74 +13,64 @@
             background-color: #f4f4f4;
         }
 
-        header {
-            background-color: #007BFF;
-            color: white;
-            padding: 20px 50px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
+     header {
+         background-color: #e3f2fd; /* Light blue */
+         color: #0d47a1; /* Darker blue text */
+         padding: 10px 30px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         flex-wrap: wrap;
+         position: sticky;
+         top: 0;
+         z-index: 1000;
+         box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+     }
 
-        header h1 {
-            margin: 0;
-            flex: 1 1 100%;
-            font-size: 2.5rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: color 0.3s ease;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
 
-        header h1:hover {
-            color: #ffd700;
-        }
 
-        nav {
-            display: flex;
-            gap: 20px;
-            margin-top: 10px;
-        }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s ease;
-        }
+                nav {
+                    display: flex;
+                    gap: 15px;
+                }
 
-        nav a:hover {
-            color: #ffd700;
-        }
+               nav a {
+                   color: #0d47a1;
+                   text-decoration: none;
+                   font-weight: bold;
+                   font-size: 16px;
+                   padding: 8px 10px;
+                   transition: color 0.3s ease;
+               }
 
-        .auth-buttons {
-            margin-left: auto;
-            display: flex;
-            gap: 10px;
-            margin-top: 10px;
-            position: sticky;
-            top: 0;
-        }
+               nav a:hover {
+                   color: #1565c0; /* Slightly deeper blue on hover */
+               }
 
-        .auth-buttons a {
-            background-color: white;
-            color: #007BFF;
-            padding: 8px 16px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            border: 1px solid white;
-            transition: all 0.3s ease;
-        }
 
-        .auth-buttons a:hover {
-            background-color: #0056b3;
-            color: white;
-        }
+                .auth-buttons {
+                    display: flex;
+                    gap: 8px;
+                }
+
+                .auth-buttons a {
+                    background-color: #0d47a1;
+                    color: white;
+                    padding: 6px 14px;
+                    text-decoration: none;
+                    border-radius: 4px;
+                    font-weight: bold;
+                    font-size: 14px;
+                    border: none;
+                    transition: all 0.3s ease;
+                }
+
+                .auth-buttons a:hover {
+                    background-color: #1565c0;
+                }
+
+
 
         /* Hero Section */
         .hero-section {
@@ -300,15 +292,14 @@
 <body>
 
 <header>
-   <h1>Welcome to the Library Hub!</h1>
     <nav>
         <a href="./index.jsp">Home</a>
         <a href="./jsp/about.jsp">About Us</a>
         <a href="./jsp/search.jsp">Search Books</a>
     </nav>
     <div class="auth-buttons">
-        <a href="./jsp/login.jsp">Login</a>
-        <a href="./jsp/register.jsp">Register</a>
+        <a href="login.jsp">Login</a>
+        <a href="register.jsp">Register</a>
     </div>
 </header>
 
@@ -316,7 +307,7 @@
 <section class="hero-section">
     <div class="hero-content">
         <h1>Join the Library Revolution Now!</h1>
-        <p>YOUR LIBRARY. YOUR RULES.</p>
+        <p>YOUR LIBRARY, YOUR RULES.</p>
         <a href="#explore" class="hero-button">Explore Now</a>
     </div>
 </section>
@@ -325,9 +316,9 @@
 <div class="main-content" id="explore">
     <p>Welcome to our smart and efficient Library Management System — explore, borrow, and manage books with ease!</p>
     <div class="nav-buttons">
-        <a href="./books/">Manage Books</a>
-        <a href="./members/">Manage Members</a>
-        <a href="./loans/">Manage Loans</a>
+
+        <a href="./members/">Books</a>
+
     </div>
 </div>
 
@@ -379,7 +370,7 @@
 
 <!-- CUSTOMER REVIEWS SECTION -->
 <section class="top-selling">
-    <h2>Customer Reviews</h2>
+    <h2>Reviews</h2>
     <div class="book-list">
 
         <div class="book-card">
@@ -416,15 +407,65 @@
 </section>
 
 <!-- FOOTER -->
-<footer>
-    <p>&copy; 2025 Library Management System</p>
-    <p>Developed with 💙 for book lovers and knowledge seekers</p>
-    <p>Contact us at <a href="mailto:support@library.com">support@library.com</a></p>
-    <p>Follow us on
-        <a href="#">Facebook</a> |
-        <a href="#">Twitter</a> |
-        <a href="#">Instagram</a>
-    </p>
+<footer style="background-color: #f9f9f9; color: #333; padding: 60px 20px; font-family: 'Segoe UI', sans-serif; border-top: 1px solid #ddd;">
+
+    <!-- Footer Title -->
+    <div style="text-align: center; margin-bottom: 40px;">
+        <h2 style="color: #0077b6; font-size: 28px; margin-bottom: 10px;">📚 Contact Us</h2>
+        <p style="font-size: 16px; color: #555;">Explore more links, updates & contact info below</p>
+    </div>
+
+    <!-- Main Footer Content -->
+    <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px;">
+
+        <!-- About -->
+        <div style="flex: 1 1 250px;">
+            <h3 style="color: #0077b6;">Library Hub</h3>
+            <p>Empowering readers with modern tools. Explore, reserve, and enjoy your favorite books — all in one place.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div style="flex: 1 1 200px;">
+            <h4 style="color: #0077b6;">Quick Links</h4>
+            <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                <li><a href="./index.jsp" style="color: #555; text-decoration: none;">Home</a></li>
+                <li><a href="./jsp/about.jsp" style="color: #555; text-decoration: none;">About Us</a></li>
+                <li><a href="./jsp/search.jsp" style="color: #555; text-decoration: none;">Search Books</a></li>
+                <li><a href="./jsp/login.jsp" style="color: #555; text-decoration: none;">Login</a></li>
+                <li><a href="./jsp/register.jsp" style="color: #555; text-decoration: none;">Register</a></li>
+            </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div style="flex: 1 1 300px;">
+            <h4 style="color: #0077b6;">Stay Connected</h4>
+            <p>Join our newsletter to receive updates on new arrivals and events.</p>
+            <form style="margin-top: 10px;">
+                <input type="email" placeholder="Your email" style="padding: 10px; width: 70%; border: 1px solid #ccc; border-radius: 4px 0 0 4px;">
+                <button type="submit" style="padding: 10px 15px; background-color: #0077b6; color: #fff; border: none; border-radius: 0 4px 4px 0; cursor: pointer;">Subscribe</button>
+            </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div style="flex: 1 1 250px;">
+            <h4 style="color: #0077b6;">Contact Us</h4>
+            <p>Email: <a href="mailto:support@library.com" style="color: #0077b6;">support@library.com</a></p>
+            <p>Phone: +91-9876543210</p>
+            <p>Location: 123 Knowledge Street, Booktown, India</p>
+        </div>
+    </div>
+
+    <hr style="margin: 40px 0; border-color: #ccc;">
+
+    <!-- Bottom Bar -->
+    <div style="text-align: center;">
+        <p style="margin: 10px 0;">&copy; 2025 Library Management System. All rights reserved.</p>
+        <div style="margin-top: 10px; font-size: 20px;">
+            <a href="#" style="color: #0077b6; margin: 0 10px;"><i class="fab fa-facebook"></i></a>
+            <a href="#" style="color: #0077b6; margin: 0 10px;"><i class="fab fa-twitter"></i></a>
+            <a href="#" style="color: #0077b6; margin: 0 10px;"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
 </footer>
 
 </body>
