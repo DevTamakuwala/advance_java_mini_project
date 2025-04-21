@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Library Registration</title>
+    <title>Library Login</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap">
     <style>
         * {
@@ -83,33 +83,29 @@
 <body>
 
     <div class="glass-form">
-        <h2 class="form-title">REGISTRATION</h2>
-<form class="register-form" id="register-form" method="POST" action="register">
-            <div class="form-group">
-                <input type="text" name="name" id="name" placeholder="Name" required />
-            </div>
-
+        <h2 class="form-title">LOGIN</h2>
+<form class="login-form" id="login-form" method="POST" action="LoginServlet">
             <div class="form-group">
                 <input type="email" name="email" id="email" placeholder="Email" required />
-            </div>
-
-            <div class="form-group">
-                <input type="text" name="cono" id="cono" placeholder="Contact Number" required />
             </div>
 
             <div class="form-group">
                 <input type="password" name="password" id="password" placeholder="Password" required />
             </div>
 
-            <div class="form-group">
-                <input type="password" name="cpassword" id="cpassword" placeholder="Confirm Password" required />
-            </div>
-
             <div class="form-group form-button">
-                <input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
+                <input type="submit" name="login" id="login" class="form-submit" value="Login" />
             </div>
 
-            <a href="login.jsp" class="signup-image-link">I AM ALREADY A MEMBER.</a>
+            <a href="forgot-password.jsp" class="signup-image-link">Forgot Password?</a>
+
+            <!-- Display error message if login fails -->
+            <c:if test="${not empty error}">
+                <div style="color: red; text-align: center; margin-top: 20px;">
+                    <p>${error}</p>
+                </div>
+            </c:if>
+
         </form>
     </div>
 
