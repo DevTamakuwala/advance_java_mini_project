@@ -84,7 +84,7 @@
 
     <div class="glass-form">
         <h2 class="form-title">LOGIN</h2>
-<form class="login-form" id="login-form" method="POST" action="LoginServlet">
+        <form class="login-form" id="login-form" method="POST" action="<%=request.getContextPath()%>/LoginServlet">
             <div class="form-group">
                 <input type="email" name="email" id="email" placeholder="Email" required />
             </div>
@@ -105,7 +105,6 @@
                     <p>${error}</p>
                 </div>
             </c:if>
-
         </form>
     </div>
 

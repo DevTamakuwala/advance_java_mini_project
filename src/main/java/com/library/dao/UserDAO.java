@@ -24,7 +24,6 @@ public class UserDAO {
     }
 
 
-
     public String getUserRole(String email, String password) {
         String role = null;
         String query = "SELECT user_type FROM users WHERE email = ? AND password = ?";
@@ -45,8 +44,6 @@ public class UserDAO {
     }
 
 
-
-
     // Check login credentials
     public boolean checkUserCredentials(String email, String password) {
         boolean isValid = false;
@@ -54,14 +51,13 @@ public class UserDAO {
         // DB connection
         try (Connection connection = DBConnection.getConnection()) {
             String query = "SELECT * FROM users WHERE email = ? AND password = ?";
-            try (PreparedStatement statement = connection.prepareStatement(query)) {
-                statement.setString(1, email);
-                statement.setString(2, password);
+            PreparedStatement statement = connection.prepareStatement(query);
+            statement.setString(1, email);
+            statement.setString(2, password);
 
-                ResultSet resultSet = statement.executeQuery();
-                if (resultSet.next()) {
-                    isValid = true;
-                }
+            ResultSet resultSet = statement.executeQuery();
+            if (resultSet.next()) {
+                isValid = true;
             }
         } catch (SQLException e) {
             e.printStackTrace();

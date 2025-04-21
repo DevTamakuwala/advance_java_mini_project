@@ -2,7 +2,7 @@
 <%
     String userType = (String) session.getAttribute("userType");
 
-    if (userType == null || !userType.equals("admin")) {
+    if (userType == null || !userType.equalsIgnoreCase("admin")) {
         // If user is logged in but not an admin, redirect them back to the previous page
         String referer = request.getHeader("Referer");
         if (referer != null) {
