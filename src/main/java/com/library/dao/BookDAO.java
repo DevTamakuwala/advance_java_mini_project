@@ -81,32 +81,6 @@ public class BookDAO {
         }
     }
 
-    public boolean issueBook(IssuedBook book) throws SQLException {
-        String sql = "INSERT INTO issued_books (book_id, user_email, issue_date, due_date) VALUES (?, ?, ?, ?)";
-        try (Connection conn = DBConnection.getConnection();
-             PreparedStatement ps = conn.prepareStatement(sql)) {
-
-            ps.setInt(1, book.getBookId());
-            ps.setString(2, book.getUserEmail());
-            ps.setDate(3, book.getIssueDate());
-            ps.setDate(4, book.getDueDate());
-
-            int rows = ps.executeUpdate();
-
-            // Reduce available copies
-            if (rows > 0) {
-                String update = "UPDATE books SET available_copies = available_copies - 1 WHERE book_id = ?";
-                try (PreparedStatement ps2 = conn.prepareStatement(update)) {
-                    ps2.setInt(1, book.getBookId());
-                    ps2.executeUpdate();
-                }
-            }
-
-            return rows > 0;
-        }
-    }
-
-
     public void returnBook(int issueId, Date returnDate, double fine) throws SQLException {
         String query = "UPDATE issued_books SET return_date = ?, fine = ? WHERE issue_id = ?";
         try (Connection conn = DBConnection.getConnection();

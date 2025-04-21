@@ -10,22 +10,16 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
 
-@WebServlet("/ReissueRequestServlet")
+@WebServlet("/requestReissue")
 public class ReissueRequestServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int issueId = Integer.parseInt(request.getParameter("issueId"));
-        BookDAO bookDAO = new BookDAO();
-
         try {
-            bookDAO.requestReissue(issueId);
-            response.sendRedirect("StudentDashboardServlet");
+            new BookDAO().requestReissue(issueId);
+            response.sendRedirect("studentIssuedBooks");
         } catch (SQLException e) {
             e.printStackTrace();
-            response.sendRedirect("error.jsp");
         }
     }
 }
-
 

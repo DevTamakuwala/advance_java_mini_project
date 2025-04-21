@@ -20,12 +20,14 @@ public class LoginServlet extends HttpServlet {
         String password = request.getParameter("password");
 
         UserDAO userDAO = new UserDAO();
+        System.out.println(userDAO.checkUserCredentials(email, password));
         if (userDAO.checkUserCredentials(email, password)) {
+            System.out.println("Inside if block");
             HttpSession session = request.getSession();
             session.setAttribute("userEmail", email);
 
             String userType = userDAO.getUserRole(email, password);
-            session.setAttribute("user_type", userType);
+            session.setAttribute("userType", userType);
 
             if (userType.equalsIgnoreCase("admin")) {
                 response.sendRedirect("admin_dashboard.jsp");
@@ -33,6 +35,7 @@ public class LoginServlet extends HttpServlet {
                 response.sendRedirect("student_dashboard.jsp");
             }
         } else {
+            System.out.println("inside else block");
             response.sendRedirect("Login.jsp");
         }
     }

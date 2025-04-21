@@ -36,16 +36,16 @@ public class IssuedBook {
         this.userEmail = userEmail;
     }
 
-    public java.sql.Date getIssueDate() {
-        return (java.sql.Date) issueDate;
+    public Date getIssueDate() {
+        return issueDate;
     }
 
     public void setIssueDate(Date issueDate) {
         this.issueDate = issueDate;
     }
 
-    public java.sql.Date getDueDate() {
-        return (java.sql.Date) dueDate;
+    public Date getDueDate() {
+        return dueDate;
     }
 
     public void setDueDate(Date dueDate) {
