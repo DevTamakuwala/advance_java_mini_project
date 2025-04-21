@@ -1,11 +1,13 @@
 package com.library.servlet;
 
 import com.library.dao.UserDAO;
-import com.library.util.DBConnection;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 @WebServlet("/LoginServlet")
@@ -23,9 +25,9 @@ public class LoginServlet extends HttpServlet {
             session.setAttribute("userEmail", email);
 
             String userType = userDAO.getUserRole(email, password);
-            session.setAttribute("userType", userType);
+            session.setAttribute("user_type", userType);
 
-            if (userType.equals("admin")) {
+            if (userType.equalsIgnoreCase("admin")) {
                 response.sendRedirect("admin_dashboard.jsp");
             } else {
                 response.sendRedirect("student_dashboard.jsp");

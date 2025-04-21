@@ -1,4 +1,16 @@
 <!DOCTYPE html>
+
+<%
+    if (session.getAttribute("userEmail") != null) {
+        String userType = (String) session.getAttribute("user_type");
+        if ("student".equals(userType)) {
+            response.sendRedirect("student_dashboard.jsp");
+        } else if ("admin".equals(userType)) {
+            response.sendRedirect("admin_dashboard.jsp");
+        }
+    }
+%>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -84,7 +96,7 @@
 
     <div class="glass-form">
         <h2 class="form-title">LOGIN</h2>
-<form class="login-form" id="login-form" method="POST" action="LoginServlet">
+        <form class="login-form" id="login-form" method="POST" action="<%=request.getContextPath()%>/LoginServlet">
             <div class="form-group">
                 <input type="email" name="email" id="email" placeholder="Email" required />
             </div>
@@ -105,7 +117,6 @@
                     <p>${error}</p>
                 </div>
             </c:if>
-
         </form>
     </div>
 
