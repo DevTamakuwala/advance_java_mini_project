@@ -1,16 +1,4 @@
 <!DOCTYPE html>
-
-<%
-    if (session.getAttribute("userEmail") != null) {
-        String userType = (String) session.getAttribute("user_type");
-        if ("student".equals(userType)) {
-            response.sendRedirect("student_dashboard.jsp");
-        } else if ("admin".equals(userType)) {
-            response.sendRedirect("admin_dashboard.jsp");
-        }
-    }
-%>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
