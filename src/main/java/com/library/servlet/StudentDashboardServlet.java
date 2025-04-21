@@ -3,6 +3,7 @@ package com.library.servlet;
 import com.library.bean.IssuedBook;
 import com.library.dao.BookDAO;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -13,28 +14,29 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
-@WebServlet("/StudentIssuedBooksServlet")
-public class StudentIssuedBooksServlet extends HttpServlet {
+@WebServlet("/StudentDashboardServlet")
+public class StudentDashboardServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException, RuntimeException {
+            throws ServletException, IOException {
 
         HttpSession session = request.getSession(false);
-        if (session == null || session.getAttribute("userEmail") == null || !"student".equals(session.getAttribute("userType"))) {
+        if (session == null || !"student".equals(session.getAttribute("userType"))) {
             response.sendRedirect("Login.jsp");
             return;
         }
 
         String email = (String) session.getAttribute("userEmail");
-
         BookDAO bookDAO = new BookDAO();
-        List<IssuedBook> issuedBooks = null;
-        try {
-            issuedBooks = bookDAO.getIssuedBooksForStudent(email);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
 
-        request.setAttribute("issuedBooks", issuedBooks);
-        request.getRequestDispatcher("WEB-INF/student_dashboard.jsp").forward(request, response);
+        try {
+            List<IssuedBook> issuedBooks = bookDAO.getIssuedBooksForStudent(email);
+            request.setAttribute("issuedBooks", issuedBooks);
+            RequestDispatcher dispatcher = request.getRequestDispatcher("student_dashboard.jsp");
+            dispatcher.forward(request, response);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            response.sendRedirect("error.jsp");
+        }
     }
 }
+
