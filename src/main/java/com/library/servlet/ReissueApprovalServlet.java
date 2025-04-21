@@ -8,24 +8,25 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.sql.Date;
 import java.sql.SQLException;
 
-@WebServlet("/ReissueRequestServlet")
-public class ReissueRequestServlet extends HttpServlet {
+@WebServlet("/ReissueApprovalServlet")
+public class ReissueApprovalServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
         int issueId = Integer.parseInt(request.getParameter("issueId"));
+        Date newDueDate = Date.valueOf(request.getParameter("newDueDate"));
         BookDAO bookDAO = new BookDAO();
 
         try {
-            bookDAO.requestReissue(issueId);
-            response.sendRedirect("StudentDashboardServlet");
+            bookDAO.approveReissue(issueId, newDueDate);
+            response.sendRedirect("AdminDashboardServlet");
         } catch (SQLException e) {
             e.printStackTrace();
             response.sendRedirect("error.jsp");
         }
     }
 }
-
 

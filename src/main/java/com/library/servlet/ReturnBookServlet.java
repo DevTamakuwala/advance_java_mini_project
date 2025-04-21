@@ -11,19 +11,24 @@ import java.io.IOException;
 import java.sql.Date;
 import java.sql.SQLException;
 
-@WebServlet("/returnBook")
+@WebServlet("/ReturnBookServlet")
 public class ReturnBookServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
         int issueId = Integer.parseInt(request.getParameter("issueId"));
-        Date returnDate = Date.valueOf(request.getParameter("returnDate")); // yyyy-MM-dd
+        Date returnDate = Date.valueOf(request.getParameter("returnDate"));
         double fine = Double.parseDouble(request.getParameter("fine"));
 
+        BookDAO bookDAO = new BookDAO();
         try {
-            new BookDAO().returnBook(issueId, returnDate, fine);
-            response.sendRedirect("adminIssuedBooks");
+            bookDAO.returnBook(issueId, returnDate, fine);
+            response.sendRedirect("AdminDashboardServlet");
         } catch (SQLException e) {
             e.printStackTrace();
+            response.sendRedirect("error.jsp");
         }
     }
 }
+
 
