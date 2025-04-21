@@ -3,6 +3,7 @@ package com.library.servlet;
 import com.library.bean.IssuedBook;
 import com.library.dao.BookDAO;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -13,28 +14,27 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
-@WebServlet("/StudentIssuedBooksServlet")
-public class StudentIssuedBooksServlet extends HttpServlet {
+@WebServlet("/AdminDashboardServlet")
+public class AdminDashboardServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException, RuntimeException {
+            throws ServletException, IOException {
 
         HttpSession session = request.getSession(false);
-        if (session == null || session.getAttribute("userEmail") == null || !"student".equals(session.getAttribute("userType"))) {
+        if (session == null || !"admin".equals(session.getAttribute("user_type"))) {
             response.sendRedirect("Login.jsp");
             return;
         }
 
-        String email = (String) session.getAttribute("userEmail");
-
         BookDAO bookDAO = new BookDAO();
-        List<IssuedBook> issuedBooks = null;
         try {
-            issuedBooks = bookDAO.getIssuedBooksForStudent(email);
+            List<IssuedBook> issuedBooks = bookDAO.getAllIssuedBooks();
+            request.setAttribute("issuedBooks", issuedBooks);
+            RequestDispatcher dispatcher = request.getRequestDispatcher("admin_dashboard.jsp");
+            dispatcher.forward(request, response);
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
+            response.sendRedirect("error.jsp");
         }
-
-        request.setAttribute("issuedBooks", issuedBooks);
-        request.getRequestDispatcher("WEB-INF/student_dashboard.jsp").forward(request, response);
     }
 }
+

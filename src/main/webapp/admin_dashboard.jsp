@@ -1,26 +1,65 @@
+<%@ page import="java.util.*, com.library.dao.BookDAO, com.library.bean.IssuedBook" %>
+<%@ page session="true" %>
 <%@ include file="session_check.jsp" %>
-<%
-    String userType = (String) session.getAttribute("userType");
 
-    if (userType == null || !userType.equalsIgnoreCase("admin")) {
-        // If user is logged in but not an admin, redirect them back to the previous page
-        String referer = request.getHeader("Referer");
-        if (referer != null) {
-            response.sendRedirect(referer);
-        } else {
-            response.sendRedirect("student_dashboard.jsp");  // fallback if referer is missing
-        }
-        return;
-    }
+<%
+    BookDAO dao = new BookDAO();
+    List<IssuedBook> books = dao.getAllIssuedBooks();
+    java.util.Date today = new java.util.Date();
 %>
-<!DOCTYPE html>
 <html>
 <head>
     <title>Admin Dashboard</title>
 </head>
 <body>
-    <h2>Welcome to Admin Dashboard</h2>
-    <p>You are logged in as: <%= session.getAttribute("userEmail") %></p>
-    <a href="LogoutServlet">Logout</a>
+<h2>Welcome Admin</h2>
+<h3>All Issued Books</h3>
+<table border="1">
+    <tr>
+        <th>Book ID</th>
+        <th>User Email</th>
+        <th>Issue Date</th>
+        <th>Due Date</th>
+        <th>Fine</th>
+        <th>Reissue Requested</th>
+        <th>Status</th>
+    </tr>
+<%
+    for (IssuedBook book : books) {
+        java.util.Date dueDate = book.getDueDate();
+        java.util.Date returnDate = book.getReturnDate();
+        double fine = book.getFine();
+
+        // Calculate fine if not returned and overdue
+        if (returnDate == null && dueDate.before(today)) {
+            long diffInMillies = today.getTime() - dueDate.getTime();
+            long daysOverdue = diffInMillies / (1000 * 60 * 60 * 24);
+            fine = daysOverdue * 200;
+        }
+%>
+    <tr>
+        <td><%= book.getBookId() %></td>
+        <td><%= book.getUserEmail() %></td>
+        <td><%= book.getIssueDate() %></td>
+        <td><%= dueDate %></td>
+        <td><%= fine %></td>
+        <td><%= book.isReissueRequested() ? "Yes" : "No" %></td>
+        <td>
+            <% if (returnDate == null && dueDate.before(today)) { %>
+                Overdue
+            <% } else { %>
+                OK
+            <% } %>
+        </td>
+    </tr>
+<% } %>
+</table>
+
+<br>
+<a href="issue_book.jsp">Issue Book</a> |
+<a href="add_book.jsp">Add Book</a> |
+<a href="reissue_requests.jsp">Reissue Requests</a> |
+<a href="return_book.jsp">Return Book</a> |
+<a href="LogoutServlet">Logout</a>
 </body>
 </html>
