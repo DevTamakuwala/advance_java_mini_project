@@ -20,7 +20,7 @@ public class AdminDashboardServlet extends HttpServlet {
             throws ServletException, IOException {
 
         HttpSession session = request.getSession(false);
-        if (session == null || !"admin".equals(session.getAttribute("user_type"))) {
+        if (!"admin".equals(session.getAttribute("user_type"))) {
             response.sendRedirect("Login.jsp");
             return;
         }

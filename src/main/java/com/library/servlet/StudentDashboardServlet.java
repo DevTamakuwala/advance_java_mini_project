@@ -20,7 +20,7 @@ public class StudentDashboardServlet extends HttpServlet {
             throws ServletException, IOException {
 
         HttpSession session = request.getSession(false);
-        if (session == null || !"student".equals(session.getAttribute("userType"))) {
+        if (session == null || !"student".equals(session.getAttribute("user_type"))) {
             response.sendRedirect("Login.jsp");
             return;
         }

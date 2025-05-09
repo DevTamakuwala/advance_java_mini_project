@@ -19,7 +19,7 @@ public class StudentIssuedBooksServlet extends HttpServlet {
             throws ServletException, IOException, RuntimeException {
 
         HttpSession session = request.getSession(false);
-        if (session == null || session.getAttribute("userEmail") == null || !"student".equals(session.getAttribute("userType"))) {
+        if (session == null || session.getAttribute("userEmail") == null || !"student".equals(session.getAttribute("user_type"))) {
             response.sendRedirect("Login.jsp");
             return;
         }
